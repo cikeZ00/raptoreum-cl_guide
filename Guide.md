@@ -38,7 +38,8 @@ You can always check the network block height at: [https://explorer.raptoreum.co
 
   
 
-To check sync progress execute ``./raptoreum-cli getblockcount``
+To check sync progress execute ``./raptoreum-cli getblockcount`` and compare the block counts.
+Or `./raptoreum-cli getblockchaininfo` and look at "verificationprogress". (Its synced when it reaches 1)
 
   
 
