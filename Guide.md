@@ -89,7 +89,7 @@ Or `./raptoreum-cli getblockchaininfo` and look at "verificationprogress". (Its 
 
 `./raptoreum-cli getwalletinfo`
 
-- Alternatively you can use `./raptoreum-cli getbalance`to only display your balance.
+- Alternatively you can use `./raptoreum-cli getbalance` to only display your balance.
 
   
 
