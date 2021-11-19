@@ -38,7 +38,13 @@ To check sync progress execute ``./raptoreum-cli getblockcount``
 
 2) To backup **Entire Wallet All Keys:**
 `./raptoreum-cli dumpwallet FILENME` (This will dump all of your keys to a text file)
-# Commands
+
+### 2) Wallet status (Balance ..etc)
+![getwalletinfo](https://i.imgur.com/bCW9sCk.png)
+- To get information about your wallet run:
+`./raptoreum-cli getwalletinfo`
+
+
 
 
 
