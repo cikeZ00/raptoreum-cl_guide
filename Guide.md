@@ -3,7 +3,7 @@
 
   
 
-This will guide you through the basic setup of raptoreum-cli
+This will guide you through the basic setup and usage of raptoreum-cli
 
   
   
