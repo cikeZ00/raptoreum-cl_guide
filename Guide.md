@@ -24,7 +24,7 @@ This will guide you through the basic setup of raptoreum-cli
 
   
 
-Once you are up and running you can use `./raptoreum-cli -?` to get a list of all available commands
+Once you are up and running you can use `./raptoreum-cli -?` to get a list of available commands
 
 ### 2) Sync
 
@@ -132,4 +132,8 @@ Arguments:
 
 To do get a new address run:
 `./raptoreum-cli getnewaddress`
-![Grabbing a new address](https://i.imgur.com/8YgTKZF.png)
+
+![Grabbing a new address](https://i.imgur.com/gRvLrJI.png)
+## Help
+- You can use  `./raptoreum-cli help` to get a list of all available commands.
+- You can also use `./raptoreum-cli help "command"` for help regarding a specific command.
