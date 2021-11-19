@@ -44,7 +44,11 @@ To check sync progress execute ``./raptoreum-cli getblockcount``
 - To get information about your wallet run:
 `./raptoreum-cli getwalletinfo`
 
-
+**Balances:**
+- "balance" = Total confirmed balance of the wallet
+- "privatesend_balance" = PrivateSend balance
+- "unconfirmed_balance" = Total unconfirmed balance of the wallet
+- "immature_balance" = Total immature balance of the wallet 
 
 
 
