@@ -137,7 +137,7 @@ To do get a new receive address run:
 
 ![Grabbing a new address](https://i.imgur.com/gRvLrJI.png)
 
-### Transactions
+### 5) Transactions
 You can list the last 10 transactions by running: 
 `./raptoreum-cli listtransactions`
 
