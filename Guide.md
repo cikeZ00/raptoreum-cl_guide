@@ -85,11 +85,11 @@ Or `./raptoreum-cli getblockchaininfo` and look at "verificationprogress". (Its 
 
 ![getwalletinfo](https://i.imgur.com/bCW9sCk.png)
 
-- To get information about your wallet run:
+To get information about your wallet run:
 
 `./raptoreum-cli getwalletinfo`
 
-- Alternatively you can use `./raptoreum-cli getbalance` to only display your balance.
+Alternatively you can use `./raptoreum-cli getbalance` to only display your balance.
 
   
 
@@ -129,12 +129,20 @@ Arguments:
   
 
 ### 4) Receive
-- To receive RTM you need to get a new address.
+- To receive RTM you need to get a new receive address.
 
-To do get a new address run:
+To do get a new receive address run:
 `./raptoreum-cli getnewaddress`
 
 ![Grabbing a new address](https://i.imgur.com/gRvLrJI.png)
+
+### Transactions
+You can list the last 10 transactions by running: 
+`./raptoreum-cli listtransactions`
+
+Alternatively you can specify the number of transactions to list:
+`./raptoreum-cli listtransactions 100` (This will list the last 100 transactions)
+
 ## Help
 - You can use  `./raptoreum-cli help` to get a list of all available commands.
 - You can also use `./raptoreum-cli help "command"` for help regarding a specific command.
