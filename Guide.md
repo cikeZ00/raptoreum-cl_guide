@@ -112,9 +112,11 @@ Alternatively you can use `./raptoreum-cli getbalance` to only display your bala
 - If you encrypted your wallet you will need to unlock it before sending!
 
 To send an x amount of RTM to a given address use:
+
 `./raptoreum-cli sendtoaddress "address" ammount`
 
 Example:
+
 `./raptoreum-cli sendtoaddress "XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwG" 0.1`
 
 
@@ -133,15 +135,18 @@ Arguments:
 - To receive RTM you need to get a new receive address.
 
 To do get a new receive address run:
+
 `./raptoreum-cli getnewaddress`
 
 ![Grabbing a new address](https://i.imgur.com/gRvLrJI.png)
 
 ### 5) Transactions
-You can list the last 10 transactions by running: 
+You can list the last 10 transactions by running:
+
 `./raptoreum-cli listtransactions`
 
 Alternatively you can specify the number of transactions to list:
+
 `./raptoreum-cli listtransactions 100` (This will list the last 100 transactions)
 
 ## Help
